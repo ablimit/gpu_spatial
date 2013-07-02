@@ -1,0 +1,10 @@
+package "slidpack"
+version "0.1"
+
+description "Packs the polygons of a single slide into a large binary object."
+
+option "server"  	s  	"Database server hostname" string default="localhost" optional
+option "username"  	u	"Username" string required
+option "password"  	p	"Password" string optional
+option "database"	d	"Database" string required
+option "pais_uid"	i	"PAIS uid" string optional
